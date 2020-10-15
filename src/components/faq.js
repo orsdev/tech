@@ -1,12 +1,7 @@
 import React from 'react';
 import { Collapse, Row, Col, Button } from 'antd';
 
-
 const { Panel } = Collapse;
-
-function callback(key) {
-  console.log(key);
-}
 
 function Faq() {
   return (
