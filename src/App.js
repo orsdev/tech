@@ -8,6 +8,7 @@ import About from './components/about';
 import Features from './components/features';
 import Hiw from './components/hiw';
 import Faq from './components/faq';
+import Pricing from './components/pricing';
 
 const { Header } = Layout;
 
@@ -23,6 +24,7 @@ const App = () => {
       <Features />
       <Hiw />
       <Faq />
+      <Pricing />
     </>
   );
 }

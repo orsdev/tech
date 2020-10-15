@@ -190,6 +190,46 @@ header
    margin-right: 6px;
 }
 
+/* Pricing STYLING */
+.pricing {
+   padding: 10px;
+   width: 100%;
+   margin-top: 30px;
+}
+
+.pricing-body {
+   margin-top: 30px;
+}
+
+.pricing-body .gutter-row:not(:last-child) {
+   margin-bottom: 20px;
+}
+
+.pricing-body .ant-card-head-title {
+   font-size: 2.5rem;
+   opacity: 0.7;
+}
+
+.pricing-body .price {
+   font-size: 2.3rem;
+   opacity: 0.7;
+}
+
+.pricing-body ul {
+   list-style: none;
+   opacity: 0.7;
+}
+
+.pricing-body ul li {
+   padding: 6px 5px;
+   font-size: 1.6rem;
+   font-weight: 600;
+}
+
+.pricing-body .fa {
+   margin-right: 6px;
+}
+
 /* UTILITIES */
 .sub-header {
    width: 100%;
