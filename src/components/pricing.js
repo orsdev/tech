@@ -26,7 +26,7 @@ function Pricing() {
               <Button
                 type="primary"
                 size="large"
-                icon={<i class="fa fa-location-arrow" aria-hidden="true"></i>}>
+                icon={<i className="fa fa-location-arrow" aria-hidden="true"></i>}>
                 Get Started
               </Button>
             </Card>
@@ -45,7 +45,7 @@ function Pricing() {
               <Button
                 type="primary"
                 size="large"
-                icon={<i class="fa fa-location-arrow" aria-hidden="true"></i>}>
+                icon={<i className="fa fa-location-arrow" aria-hidden="true"></i>}>
                 Get Started
               </Button>
             </Card>
@@ -64,7 +64,7 @@ function Pricing() {
               <Button
                 type="primary"
                 size="large"
-                icon={<i class="fa fa-location-arrow" aria-hidden="true"></i>}>
+                icon={<i className="fa fa-location-arrow" aria-hidden="true"></i>}>
                 Get Started
               </Button>
             </Card>
