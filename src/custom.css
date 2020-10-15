@@ -1,0 +1,99 @@
+/* 
+header
+------ 
+*/
+.nav {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   padding: 0 100px;
+}
+
+.nav .logo {
+   width: 80px;
+   text-decoration: none;
+   display: inline-block;
+}
+
+.nav .logo i {
+   font-size: 2.5rem;
+}
+
+.nav .logo span {
+   font-size: 1.8rem;
+   font-weight: 600;
+   opacity: 0.7;
+   color: black;
+   padding-left: 5px;
+}
+
+.ant-layout-header {
+   background-color: white;
+   padding: 0;
+}
+
+.ant-menu {
+   border: 0;
+   width: calc(100% - 80px);
+   text-align: right;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item {
+   margin: 0 14px !important;
+}
+
+.ant-menu .ant-menu-item-selected {
+   border: none !important;
+   font-weight: 700;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover {
+   border: none;
+}
+
+.ant-carousel .hero-item {
+   height: 600px;
+   display: flex !important;
+   justify-content: center;
+   flex-direction: column;
+   padding: 10px 20px;
+}
+
+.ant-carousel .fa {
+   padding-right: 5px;
+}
+
+.ant-carousel .hero-item-one {
+   background: url("./assets/images/bg-hero.jpg");
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.ant-carousel .hero-item-two {
+   background-image: linear-gradient(
+         to left,
+         rgba(0, 0, 0, 0.4),
+         rgba(0, 0, 0, 0.4)
+      ),
+      url("./assets/images/advanced-option.jpg");
+   background-position: top bottom;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.ant-carousel .hero-item h2 {
+   font-weight: 700;
+}
+
+.ant-carousel .hero-item p {
+   width: 450px;
+}
+
+.ant-carousel .hero-item-two h2 {
+   color: white;
+}
+
+.ant-carousel .hero-item-two p {
+   color: white;
+}
