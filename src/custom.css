@@ -137,6 +137,36 @@ header
    width: 95%;
 }
 
+/* HOW IT WORKS STYLING */
+.hiw {
+   padding: 80px 10px;
+   width: 100%;
+   margin-top: 30px;
+   background-image: linear-gradient(
+         to left,
+         rgba(0, 0, 0, 0.6),
+         rgba(0, 0, 0, 0.6)
+      ),
+      url("./assets/images/bg-works.jpg");
+   background-position: top bottom;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+}
+
+.hiw-header h2 {
+   color: white;
+}
+
+.hiw-body {
+   margin-top: 30px;
+   color: white;
+}
+
+.hiw-body .fa {
+   font-size: 8rem;
+}
+
 /* UTILITIES */
 .sub-header {
    width: 100%;

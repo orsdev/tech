@@ -6,6 +6,7 @@ import './custom.css';
 import Hero from './components/hero';
 import About from './components/about';
 import Features from './components/features';
+import Hiw from './components/hiw';
 
 const { Header } = Layout;
 
@@ -19,6 +20,7 @@ const App = () => {
       <Hero />
       <About />
       <Features />
+      <Hiw />
     </>
   );
 }
