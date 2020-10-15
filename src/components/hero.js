@@ -3,7 +3,7 @@ import { Carousel, Space, Button } from 'antd';
 
 function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id="hero">
       <Carousel dotPosition="bottom" autoplay>
         <div className="hero-item hero-item-one">
           <h2>Web and mobile payment built for developers</h2>
