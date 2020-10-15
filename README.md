@@ -9,4 +9,4 @@ A landing page made with ant design
 
 ## Live Link
 
-https://tech.vercel.app/
+https://tech-eta.vercel.app/
