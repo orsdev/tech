@@ -7,6 +7,7 @@ import Hero from './components/hero';
 import About from './components/about';
 import Features from './components/features';
 import Hiw from './components/hiw';
+import Faq from './components/faq';
 
 const { Header } = Layout;
 
@@ -21,6 +22,7 @@ const App = () => {
       <About />
       <Features />
       <Hiw />
+      <Faq />
     </>
   );
 }
