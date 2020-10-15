@@ -10,6 +10,7 @@ import Hiw from './components/hiw';
 import Faq from './components/faq';
 import Pricing from './components/pricing';
 import Contact from './components/contact';
+import Footer from './components/footer';
 
 const { Header } = Layout;
 
@@ -27,6 +28,7 @@ const App = () => {
       <Faq />
       <Pricing />
       <Contact />
+      <Footer />
     </>
   );
 }

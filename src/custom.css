@@ -242,6 +242,24 @@ header
    margin-top: 30px;
 }
 
+/* FOOTER STYLING */
+.footer {
+   margin-top: 30px;
+   padding: 40px 10px;
+   background-color: black;
+}
+
+.footer-links a {
+   display: inline-block;
+   color: white;
+   font-size: 2rem;
+   width: 40px;
+}
+
+.footer-links a:hover {
+   opacity: 0.8;
+}
+
 /* UTILITIES */
 .sub-header {
    width: 100%;
