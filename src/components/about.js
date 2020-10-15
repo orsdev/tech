@@ -22,19 +22,19 @@ function About() {
         <div className="about-body-cards">
           <Row gutter={10} justify="center">
             <Col md={8} lg={7} xl={7}>
-              <i class="fa fa-pie-chart" aria-hidden="true"></i>
+              <i className="fa fa-pie-chart" aria-hidden="true"></i>
               <Card title="High Performance" bordered={false}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur magnam eius praesentium numquam reprehenderit quam quis error veniam, ducimus amet.
               </Card>
             </Col>
             <Col md={8} lg={7} xl={7}>
-              <i class="fa fa-desktop" aria-hidden="true"></i>
+              <i className="fa fa-desktop" aria-hidden="true"></i>
               <Card title="Flat Design" bordered={false}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur magnam eius praesentium numquam reprehenderit quam quis error veniam, ducimus amet.
               </Card>
             </Col>
             <Col md={8} lg={7} xl={7}>
-              <i class="fa fa-stack-exchange" aria-hidden="true"></i>
+              <i className="fa fa-stack-exchange" aria-hidden="true"></i>
               <Card title="Simplified Workflow" bordered={false}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur magnam eius praesentium numquam reprehenderit quam quis error veniam, ducimus amet.
               </Card>

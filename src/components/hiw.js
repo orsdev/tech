@@ -10,7 +10,7 @@ function Hiw() {
         <hr className="border-bottom" />
       </header>
       <div className="hiw-body">
-        <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+        <i className="fa fa-play-circle-o" aria-hidden="true"></i>
       </div>
     </section>
   )
